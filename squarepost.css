@@ -1,0 +1,27 @@
+.squarediv{
+	float:left;
+	padding:0;
+	margin:0;
+	box-sizing:content-box;
+}
+.squarecaption{
+	text-shadow: 0 0 4px #000, 0 0 4px #000;
+	display:table-cell;
+	text-align:center;
+	vertical-align:bottom;
+    color:#2ED195;
+	background:rgba(0,0,0,0.25);
+	text-transform: uppercase;
+}
+.squarecaption:hover{
+	background: none
+}
+
+.squarebackground{width:100%;
+	height:100%;
+	background:no-repeat center center;
+	background-size:cover;
+	display:table;
+	table-layout:fixed;
+	overflow: hidden;
+}
